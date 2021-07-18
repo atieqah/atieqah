@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <label for="time">Time:</label>
+  <input type="time" name="time" id="time">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><img src="images/logoUKM.png" width="75" height="52" alt=""/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"> <a class="nav-link" href="index.html">Utama <span class="sr-only">(current)</span></a> </li>
+            
+            <li class="nav-item"> <a class="nav-link" href="Log masuk.html">Log masuk</a>
+              <div class="dropdown show">
+                <div class="dropdown-menu">
+    <h6 class="dropdown-header">Dropdown header 1</h6>
+    <a class="dropdown-item" href="#">First Link</a> <a class="dropdown-item disabled" href="#" >Disabled Link</a> <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Seperated Link</a> </div>
+            </div>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="Pemilihan Perniagaan.html">Pemilihan Perniagaan&nbsp;</a></li>
+            <li class="nav-item dropdown">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a> </div>
+        </li>
+            <li class="nav-item"> </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+          </form>
+        </div>
+    </nav>
+<h1 class="text-center">NAK BERNIAGA PRODUK APA?&nbsp;&nbsp;</h1>
+    <p>&nbsp;
+    <p>Isikan Maklumat Di Bawah:<br>
+		  <form class="container" name="lokasi-form" action="resultlokasi.html" method="">
+	  <p class="form-box">
+			  <label for="category" title="category">Kategori Perniagaan</label>
+			  <select id="category" name="category">
+				  <optgroup label="Pilih Kategori">
+		  <option value="service">Perkhidmatan</option>
+				  <option value="retail">Runcit</option>
+				  <option value="manufacturing">Perkhidmatan</option>
+				  </optgroup>
+		  </select>
+			  </p>
+			  <p class="form-box"></p>
+			  <label for="sector" title="sector">Sektor Perniagaan</label>
+			  <select id="sector" name="sector">
+			  <optgroup label="Pilih Sektor">
+				  <option value="clothing-fashion">Pakaian dan Fesyen</option>
+				  <option value="food-processing">Pemprosesan Makanan</option>
+				  <option value="catering-restaurant">Katering dan Restoran</option>
+				  <option value="logistics-transport">Logistik dan Pengangkutan </option>
+				  <option value="health-medicine">Kesihatan dan Perubatan</option>
+				  <option value="cosmetic">Kosmetik</option>
+				  <option value="education-training">Pendidikan dan Latihan</option>
+				  </optgroup>
+			  </select>
+			  
+	  <p class="form-box">
+			  <label for="state">Negeri</label>
+			  <input id="state" name="state" list="states">
+			  </p>
+			  
+		<p class="district">
+			  <label for="district">Daerah</label>
+			  <input id="district" name="district" list="districts" placeholder="Kawasan tempat tinggal" required>
+			  </p>
+			  
+	  <p class="form-box">
+			  <label for="products">Produk</label>
+			  <input type="text" id="products" name="products" required placeholder="Jenis produk">
+			  </p>
+			  
+		<p class="form-box">
+			  <button id="btnSend">Hantar</button>
+			  </p>
+	  </form>
+	  
+	  <form class="container" action="https://www.google.com/search">
+	    <label>Lihat kebarangkalian jumlah produk yang dijual di kawasan anda</label>
+  <input type="text" name="q" placeholder="Jenis produk, kawasan">
+  <input type="submit" value="Lihat">
+
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d106216.97938532016!2d101.57598684879468!3d3.1253445956265287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skerepek%20near%20Damansara%20Damai%2C%20Petaling%20Jaya%2C%20Selangor!5e0!3m2!1sen!2smy!4v1626498525010!5m2!1sen!2smy" width="800" height="600" style="border:0;" allowfullscreen="100%" loading="lazy" class="align-self-center"></iframe>
+</form>
+	  <div>
+	  <a href="index.html"> 
+		  <button>Kembali!</button></a>
+		  <a href="Kesediaan Diri.html"> 
+		  <button>Seterusnya!</button></a> 
+	  </div>
+	  
+	  <datalist id="states">
+	  <option value="Perlis">Perlis</option>
+	  <option value="Kedah">Kedah</option>
+		  <option value="Penang">Penang</option>
+		  <option value="Perak">Perak</option>
+		  <option value="Kuala Lumpur">Kuala Lumpur</option>
+		  <option value="Selangor">Selangor</option>
+		  <option value="Negeri Sembilan">Negeri Sembilan</option>
+		  <option value="Melaka">Melaka</option>
+		  <option value="Johor">Johor</option>
+		  <option value="Pahang">Pahang</option>
+		  <option value="Kelantan">Kelantan</option>
+		  <option value="Terengganu">Terengganu</option>
+		  <option value="Sabah">Sabah</option>
+		  <option value="Sarawak">Sarawak</option>
+	  </datalist>
+	  
+	  </p>
+</p>
+</div>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

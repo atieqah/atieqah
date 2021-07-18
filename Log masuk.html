@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <label for="time">Time:</label>
+  <input type="time" name="time" id="time">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><img src="images/logoUKM.png" width="75" height="52" alt=""/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"> <a class="nav-link" href="index.html">Utama <span class="sr-only">(current)</span></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="Log masuk.html">Log masuk</a>
+              <div class="dropdown show">
+                <div class="dropdown-menu">
+    <h6 class="dropdown-header">Dropdown header 1</h6>
+    <a class="dropdown-item" href="#">First Link</a> <a class="dropdown-item disabled" href="#" >Disabled Link</a> <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Seperated Link</a> </div>
+            </div>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a> </div>
+        </li>
+            <li class="nav-item"> </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+          </form>
+        </div>
+    </nav>
+<h1 class="text-center">LOG MASUK&nbsp;</h1>
+    <p>&nbsp;<br>
+    <form>
+            <div class="input-field">
+               <input type="text" required>
+               <label>Email</label>
+            </div>
+            <div class="input-field">
+               <input class="pswrd" type="password" required>
+               <span class="show">SHOW</span>
+               <label>Kata Laluan</label>
+            </div>
+            <div class="button">
+               <div class="inner"></div>
+               <button>LOG MASUK</button>
+            </div>
+    </form>
+         <div class="auth">
+            Atau 
+         </div>
+         <div class="links">
+            <div class="facebook">
+               <i class="fab fa-facebook-square"><span>Facebook</span></i>
+            </div>
+            <div class="google">
+               <i class="fab fa-google-plus-square"><span>Google</span></i>
+            </div>
+         </div>
+         <div class="signup">
+            Bukan Ahli? <a href="Signup.html">Daftar Sekarang</a>
+         </div>
+    <script>
+         var input = document.querySelector('.pswrd');
+         var show = document.querySelector('.show');
+         show.addEventListener('click', active);
+         function active(){
+           if(input.type === "password"){
+             input.type = "text";
+             show.style.color = "#1DA1F2";
+             show.textContent = "HIDE";
+           }else{
+             input.type = "password";
+             show.textContent = "SHOW";
+             show.style.color = "#111";
+           }
+         }
+      </script>
+		
+		
+		<br>
+	</p>
+</div>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

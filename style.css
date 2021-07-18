@@ -1,0 +1,68 @@
+@charset "utf-8";
+.container footer {
+    color: #FFFFFF;
+}
+.container div {
+    text-align: center;
+    color: #FFFFFF;
+}
+.card.col-md-4.col-lg-12 .card-body .card-text {
+    color: #000000;
+}
+#collapseOne1 .card-body p {
+    color: #000000;
+}
+.container .container {
+    background-image: url(images/Gambar9.png);
+    background-size: cover;
+    background-clip: border-box;
+    border-color: #E72792;
+}
+
+.container .form-box label {
+    color: #000000;
+}
+.container .container input {
+    background-color: #FFD4E8;
+}
+.container .form-box #category {
+    background-color: #FFD4E8;
+}
+.container .container #sector {
+    background-color: #FFD4E8;
+}
+.container .text-center {
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    color: #FF7C7F;
+}
+
+
+
+
+.container .district label {
+    color: #020202;
+}
+.container .form-box #btnSend {
+    background-color: #FC4A9D;
+    border-width: medium;
+    border-color: #FFA7D5;
+}
+.row .col-lg-4 .card.col-md-4.col-lg-12 {
+    background-image: url(images/Gambar10.jpg);
+}
+.container p br {
+    background-color: #030303;
+}
+.container div {
+    color: #060606;
+    background-repeat: repeat-y;
+}
+.container .row.p-full {
+    /* [disabled]background-color: #B74143; */
+}
+.container .align-self-center p {
+}
+.container div p {
+    color: #000000;
+}
